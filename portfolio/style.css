@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+body {
+    background: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #606060;
+    position: relative;
+  }
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  h1,h2,h3 { font-weight: 300; }
+  p { line-height: 28px; }
+  hr {
+    border-color: #f2f2f2;
+    width: 100px;
+    margin-bottom: 40px;
+  }
+  .title {
+    color: #303030;
+    font-size: 60px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+  }
+  
+
+  
+  /* Custom styles for the social section */
+.custom-social {
+  margin-top: 50px;
+}
+
+/* Styles for individual social icons */
+.media {
+  display: flex;
+  align-items: center;
+}
+
+.media-body {
+  margin-left: 20px;
+}
+
+.media-body h3 {
+  margin: 0;
+}
+
+/* Animation keyframes */
+@keyframes fadeInUp {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Custom animations for social icons */
+.social-linkedin {
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
+.social-facebook {
+  animation: fadeInUp 1s ease-in-out 0.3s forwards;
+}
+
+.social-twitter {
+  animation: fadeInUp 1s ease-in-out 0.6s forwards;
+}
+.custom-section {
+  padding: 50px 0;
+}
+
+/* Profile and programming skills section styles */
+.profile-info,
+.programming-skills {
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.info-label {
+  font-weight: bold;
+}
+
+/* About section styles */
+.about-info {
+  background-color: #fff; /* White background */
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.red-text {
+  color: #ff0000; /* Red text color */
+}
+
+.black-text {
+  color: #000; /* Black text color */
+}
+/* Custom home section styles */
+.custom-home {
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 100px 0;
+  text-align: center;
+}
+
+/* Home content styles */
+.home-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.home-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333; /* Dark text color */
+  margin-bottom: 20px;
+}
+
+.home-subtitle {
+  font-size: 32px;
+  color: #555; /* Slightly darker text color */
+  margin-bottom: 30px;
+}
+
+.home-text {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #777; /* Light text color */
+  margin-bottom: 40px;
+}
+/* Custom section styles */
+.custom-section {
+  background-color: #f9f9f9; /* Light gray background */
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* About content styles */
+
+.social_meaida_container {
+display: flex;
+width: 100%;
+}
+/* Custom section styles */
+.custom-section {
+  background-color: #f9f9f9; /* Light gray background */
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* About content styles */
+.about-content {
+  max-width: 800px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.title h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ff0000; /* Red text color */
+}
+
+.black-text {
+  font-size: 18px;
+  color: #333; /* Dark text color */
+  line-height: 1.6;
+  text-align: center;
+}
+/* Custom social section styles */
+/* Custom social section styles */
+.custom-social {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.social-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.social-link {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.social-link a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+
+.social-link i {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.social-link h4 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.social-link h3 {
+  margin: 0;
+}
+
+/* Hover animation */
+.social-link:hover {
+  background-color: #f0f0f0; /* Light gray background on hover */
+}
+
+/* Custom section styles */
+.custom-section {
+  padding: 50px 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.info-label {
+  font-weight: bold;
+}
+
+/* Custom progress bar styles */
+.custom-progress {
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  height: 25px;
+}
+
+.react-bar {
+  background-color: #61dafb;
+  width: 60%; /* React blue color */
+}
+
+.html-bar {
+  background-color: #f06529;
+  width: 90%;  /* HTML red-orange color */
+}
+
+.css-bar {
+  background-color: #2965f1;
+  width: 80%;  /* CSS blue color */
+}
+
+.js-bar {
+  background-color: #f0db4f; 
+  width: 40%; /* JavaScript yellow color */
+}
